@@ -809,6 +809,7 @@ GameObject:
   - component: {fileID: 1822649172}
   - component: {fileID: 1822649171}
   - component: {fileID: 1822649170}
+  - component: {fileID: 1822649173}
   m_Layer: 5
   m_Name: quit
   m_TagString: Untagged
@@ -880,7 +881,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1822649171}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822649173}
+        m_TargetAssemblyTypeName: Quit, Assembly-CSharp
+        m_MethodName: QuitToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1822649171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -919,6 +932,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822649168}
   m_CullTransparentMesh: 1
+--- !u!114 &1822649173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822649168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0390981aef9ebfc4cb3cc76bdd4634cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1831219063
 GameObject:
   m_ObjectHideFlags: 0
