@@ -12,7 +12,7 @@ public class Restart: MonoBehaviour
 
 
 
-    public void PlayGame()
+    public void RestartGame()
 
     {
 
