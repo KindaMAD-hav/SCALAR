@@ -484,7 +484,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &715749727
 GameObject:
@@ -744,7 +744,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1437042558
 GameObject:
@@ -1286,6 +1286,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 5
   jumpForce: 5
+  slideSpeed: 8
+  slideDuration: 1
 --- !u!70 &1903712929
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
