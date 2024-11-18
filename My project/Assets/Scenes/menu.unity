@@ -1794,6 +1794,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1240086079}
+<<<<<<< HEAD
         m_TargetAssemblyTypeName: PlayButton, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 3
@@ -1801,6 +1802,15 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+=======
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+>>>>>>> 74d722d4148f6e897f7a04762f7dfad3589b07e8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1852,7 +1862,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1240086074}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 23f287127d77fa44fa095858de5a12d0, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: d7d7cce816313794bb326e1c665cb046, type: 3}
+>>>>>>> 74d722d4148f6e897f7a04762f7dfad3589b07e8
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1612067009
