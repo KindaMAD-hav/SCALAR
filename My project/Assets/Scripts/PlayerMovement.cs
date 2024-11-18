@@ -37,14 +37,14 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
             animator.Play("Jump");
-            animator.SetBool("isJumping", true);
+            //animator.SetBool("isJumping", true);
         }
 
         if (Input.GetKeyDown(KeyCode.S) && isGrounded && !isSliding)
         {
             isSliding = true;
             playerSpeed = slideSpeed;
-            //animator.SetBool("isSliding", true);
+            animator.SetBool("isSliding", true);
             StartCoroutine(StopSlidingAfterDuration());
         }
 
@@ -56,17 +56,15 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-            animator.SetBool("isJumping", false);
+            //animator.SetBool("isJumping", false);
         }
     }
 
     private IEnumerator StopSlidingAfterDuration()
     {
-        animator.Play("Slide");
         yield return new WaitForSeconds(slideDuration);
         isSliding = false;
         playerSpeed = normalSpeed;
-        
-        //animator.SetBool("isSliding", false);
+        animator.SetBool("isSliding", false);
     }
 }
